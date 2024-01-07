@@ -1,0 +1,2971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- --------------------------------------------------- -->
+    <!-- Title -->
+    <!-- --------------------------------------------------- -->
+    <title>Marolix</title>
+
+    <!-- --------------------------------------------------- -->
+    <!-- Required Meta Tag -->
+    <!-- --------------------------------------------------- -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="handheldfriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="description" content="Mordenize" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="Mordenize" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- --------------------------------------------------- -->
+    <!-- Favicon -->
+    <!-- --------------------------------------------------- -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../../dist/images/favicon.png"
+    />
+
+    <!-- --------------------------------------------------- -->
+    <!-- Prism Js -->
+    <!-- --------------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="../../dist/libs/prismjs/themes/prism-okaidia.min.css"
+    />
+
+    <!-- --------------------------------------------------- -->
+    <!-- Datatable -->
+    <!-- --------------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="../../dist/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css"
+    />
+
+    <!-- --------------------------------------------------- -->
+    <!-- Core Css -->
+    <!-- --------------------------------------------------- -->
+
+    <link
+      id="themeColors"
+      rel="stylesheet"
+      href="../../dist/css/style.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <img
+        src="../../dist/images/favicon.png"
+        alt="loader"
+        class="lds-ripple img-fluid"
+      />
+    </div>
+
+    <!-- --------------------------------------------------- -->
+    <!-- Body Wrapper -->
+    <!-- --------------------------------------------------- -->
+    <div
+      class="page-wrapper"
+      id="main-wrapper"
+      data-layout="vertical"
+      data-sidebartype="full"
+      data-sidebar-position="fixed"
+      data-header-position="fixed"
+    >
+
+      <!-- Sidebar Start -->
+      <aside class="left-sidebar">
+        <!-- Sidebar scroll-->
+        <div>
+          <div
+            class="brand-logo d-flex align-items-center justify-content-between"
+          >
+            <a href="index.html" class="text-nowrap logo-img">
+              <img
+                src="../../dist/images/Marolix-logo-03.png"
+                class="dark-logo"
+                width="120"
+                alt=""
+              />
+            </a>
+            <div
+              class="close-btn d-lg-none d-block sidebartoggler cursor-pointer"
+              id="sidebarCollapse"
+            >
+              <i class="ti ti-x fs-8 text-muted"></i>
+            </div>
+          </div>
+          <!-- Sidebar navigation-->
+          <nav class="sidebar-nav scroll-sidebar" data-simplebar>
+            <ul id="sidebarnav">
+              <!-- =================== -->
+              <!-- Dashboard -->
+              <!-- =================== -->
+              <li class="sidebar-item">
+                <a class="sidebar-link" href="index.html" aria-expanded="false">
+                  <span>
+                    <i class="ti ti-aperture"></i>
+                  </span>
+                  <span class="hide-menu">Home</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-report-money"> </i>
+                  </span>
+                  <span class="hide-menu">Finance</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-box-multiple"></i>
+                  </span>
+                  <span class="hide-menu">Procurement</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Agent-Module</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="agent-index.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Agent-Dashboard</span>
+                        </a>
+                      </li>
+
+                      <li class="sidebar-item">
+                        <a href="user-profile.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">User-Profile</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="Purchase-order.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Purchasing Orders</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="purchase-requistions-add.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Purchase Requisitions</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="supply-details.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Suppliers</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="map.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Map</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Manager-Login</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="Manager-index.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Manager-Dashboard</span>
+                        </a>
+                      </li>
+
+                      <li class="sidebar-item">
+                        <a
+                          href="Mpurchase-requistions.html"
+                          class="sidebar-link"
+                        >
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Purchase Requisitions</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="Msupply-details.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Suppliers</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="Mraw-material.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Raw Material</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a
+                          href="Morder-management.html"
+                          class="sidebar-link"
+                        >
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Order-Management</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-settings-code"></i>
+                  </span>
+                  <span class="hide-menu">Manufacturing</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-box"></i>
+                  </span>
+                  <span class="hide-menu">Inventory </span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="inventory-dashboard.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Dashboard</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="inventory-catalog.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Inventory - catelog </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="inventory-tracking.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Inventory - Tracking</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="Purchase-order.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Purchase Order</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-basket"></i>
+                  </span>
+                  <span class="hide-menu"> Order's </span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="Quotation.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Quotation</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="order-processing.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Order processing</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="confirmation-invoice.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Confirmation</span>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-item">
+                    <a href="tracking.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Tracking</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-home-up"></i>
+                  </span>
+                  <span class="hide-menu">WareHouse</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-chart-infographic"></i>
+                  </span>
+                  <span class="hide-menu">Supply Chain</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-user"></i>
+                  </span>
+                  <span class="hide-menu">CRMS</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Dashboard</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Clients</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add Client</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Clients List</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Agents</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add Agent</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Agents List </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Projects</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">View All Projects</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add Projects</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Properties</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">View All Properties</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add New Property</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Leads</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Fresh Leads</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add New Lead</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Up-Coming Follow-Ups</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Todays Follow-ups</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Old Pending Follow-Ups</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">All Leads</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Masters</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add Source</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add Property Type</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Add Amenities</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Settings</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">New User</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Change Password</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Users List & Last Login</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-heart-handshake"></i>
+                  </span>
+                  <span class="hide-menu">Project Management</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-browser-check"></i>
+                  </span>
+                  <span class="hide-menu">WorkForce</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-box-multiple"></i>
+                  </span>
+                  <span class="hide-menu">HRMS</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="hrms-dashboard.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Dashboard</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Emp Management</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="department.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Department</span>
+                        </a>
+                      </li>
+
+                      <li class="sidebar-item">
+                        <a href="designation.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Designation</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="branch.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Branch</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="manage-employee.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Manage Employee</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="warning.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Warning</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="termination.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Termination</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="promotionlist.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Promotion</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="employee-permanant.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Employee Permanent</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="sidebar-link has-arrow"
+                      href="#"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Attendance</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse two-level">
+                      <li class="sidebar-item">
+                        <a href="Manage-work-shift.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Manage Workshift</span>
+                        </a>
+                      </li>
+
+                      <li class="sidebar-item">
+                        <a
+                          href="dashboard-attendance.html"
+                          class="sidebar-link"
+                        >
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Dashboard Attendance</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="daily-attendance.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Daily Attendance</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="monthly-attendance.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Monthly Attendance</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a
+                          href="my-attendance-report.html"
+                          class="sidebar-link"
+                        >
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">My Attendance Report</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a
+                          href="attendance-summary-report.html"
+                          class="sidebar-link"
+                        >
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Summary Report</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="manual-attendance.html" class="sidebar-link">
+                          <div
+                            class="round-16 d-flex align-items-center justify-content-center"
+                          >
+                            <i class="ti ti-circle"></i>
+                          </div>
+                          <span class="hide-menu">Manual Attendance</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-shopping-cart"></i>
+                  </span>
+                  <span class="hide-menu">Ecommerce</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-user-exclamation"></i>
+                  </span>
+                  <span class="hide-menu">Marketing</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Demo</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-user-circle"></i>
+                  </span>
+                  <span class="hide-menu">Employee</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="indexE.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Employee-Dashboard</span>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-item">
+                    <a href="Employee List.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Employee List</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="Employee Role Setup.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">EmployeeRoleSetup</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow"
+                  href="#"
+                  aria-expanded="false"
+                >
+                  <span class="d-flex">
+                    <i class="ti ti-user-code"></i>
+                  </span>
+                  <span class="hide-menu">Suppliers</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="ESuppliers List.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">SuppliersList</span>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-item">
+                    <a href="Add New Suppliers.html" class="sidebar-link">
+                      <div
+                        class="round-16 d-flex align-items-center justify-content-center"
+                      >
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Add New Suppliers </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <div
+            class="fixed-profile p-3 bg-light-secondary rounded sidebar-ad mt-3"
+          >
+            <div class="hstack gap-3">
+              <div class="john-img">
+                <img
+                  src="../../dist/images/profile/user-1.jpg"
+                  class="rounded-circle"
+                  width="40"
+                  height="40"
+                  alt=""
+                />
+              </div>
+              <div class="john-title">
+                <h6 class="mb-0 fs-4 fw-semibold">Mathew</h6>
+                <span class="fs-2 text-dark">Designer</span>
+              </div>
+              <button
+                class="border-0 bg-transparent text-primary ms-auto"
+                tabindex="0"
+                type="button"
+                aria-label="logout"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-title="logout"
+              >
+                <i class="ti ti-power fs-6"></i>
+              </button>
+            </div>
+          </div>
+          <!-- End Sidebar navigation -->
+        </div>
+        <!-- End Sidebar scroll-->
+      </aside>
+      <!--  Sidebar End -->
+
+      <!-- --------------------------------------------------- -->
+      <!-- Main Wrapper -->
+      <!-- --------------------------------------------------- -->
+      <div class="body-wrapper">
+        <!-- --------------------------------------------------- -->
+        <!-- Header Start -->
+        <!-- --------------------------------------------------- -->
+        <header class="app-header">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link sidebartoggler nav-icon-hover ms-n3"
+                  id="headerCollapse"
+                  href="javascript:void(0)"
+                >
+                  <i class="ti ti-menu-2"></i>
+                </a>
+              </li>
+              <li class="nav-item d-none d-lg-block">
+                <a
+                  class="nav-link nav-icon-hover"
+                  href="javascript:void(0)"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="ti ti-search"></i>
+                </a>
+              </li>
+            </ul>
+
+            <div class="d-block d-lg-none">
+              <img
+                src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/logos/dark-logo.svg"
+                class="dark-logo"
+                width="180"
+                alt=""
+              />
+              <img
+                src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/logos/light-logo.svg"
+                class="light-logo"
+                width="180"
+                alt=""
+              />
+            </div>
+            <button
+              class="navbar-toggler p-0 border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="p-2">
+                <i class="ti ti-dots fs-7"></i>
+              </span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <div class="d-flex align-items-center justify-content-between">
+                <a
+                  href="javascript:void(0)"
+                  class="nav-link d-flex d-lg-none align-items-center justify-content-center"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#mobilenavbar"
+                  aria-controls="offcanvasWithBothOptions"
+                >
+                  <i class="ti ti-align-justified fs-7"></i>
+                </a>
+                <ul
+                  class="navbar-nav flex-row ms-auto align-items-center justify-content-center"
+                >
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link nav-icon-hover"
+                      href="javascript:void(0)"
+                      id="drop2"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="ti ti-bell-ringing"></i>
+                      <div class="notification bg-primary rounded-circle"></div>
+                    </a>
+                    <div
+                      class="dropdown-menu content-dd dropdown-menu-end dropdown-menu-animate-up"
+                      aria-labelledby="drop2"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between py-3 px-7"
+                      >
+                        <h5 class="mb-0 fs-5 fw-semibold">Notifications</h5>
+                        <span class="badge bg-primary rounded-4 px-3 py-1 lh-sm"
+                          >5 new</span
+                        >
+                      </div>
+                      <div class="message-body" data-simplebar>
+                        <a
+                          href="javascript:void(0)"
+                          class="py-6 px-7 d-flex align-items-center dropdown-item"
+                        >
+                          <span class="me-3">
+                            <img
+                              src="../../dist/images/profile/user-1.jpg"
+                              alt="user"
+                              class="rounded-circle"
+                              width="48"
+                              height="48"
+                            />
+                          </span>
+                          <div class="w-75 d-inline-block v-middle">
+                            <h6 class="mb-1 fw-semibold">
+                              Roman Joined the Team!
+                            </h6>
+                            <span class="d-block">Congratulate him</span>
+                          </div>
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                          class="py-6 px-7 d-flex align-items-center dropdown-item"
+                        >
+                          <span class="me-3">
+                            <img
+                              src="../../dist/images/profile/user-2.jpg"
+                              alt="user"
+                              class="rounded-circle"
+                              width="48"
+                              height="48"
+                            />
+                          </span>
+                          <div class="w-75 d-inline-block v-middle">
+                            <h6 class="mb-1 fw-semibold">New message</h6>
+                            <span class="d-block"
+                              >Salma sent you new message</span
+                            >
+                          </div>
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                          class="py-6 px-7 d-flex align-items-center dropdown-item"
+                        >
+                          <span class="me-3">
+                            <img
+                              src="../../dist/images/profile/user-3.jpg"
+                              alt="user"
+                              class="rounded-circle"
+                              width="48"
+                              height="48"
+                            />
+                          </span>
+                          <div class="w-75 d-inline-block v-middle">
+                            <h6 class="mb-1 fw-semibold">
+                              Bianca sent payment
+                            </h6>
+                            <span class="d-block">Check your earnings</span>
+                          </div>
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                          class="py-6 px-7 d-flex align-items-center dropdown-item"
+                        >
+                          <span class="me-3">
+                            <img
+                              src="../../dist/images/profile/user-4.jpg"
+                              alt="user"
+                              class="rounded-circle"
+                              width="48"
+                              height="48"
+                            />
+                          </span>
+                          <div class="w-75 d-inline-block v-middle">
+                            <h6 class="mb-1 fw-semibold">
+                              Jolly completed tasks
+                            </h6>
+                            <span class="d-block">Assign her new tasks</span>
+                          </div>
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                          class="py-6 px-7 d-flex align-items-center dropdown-item"
+                        >
+                          <span class="me-3">
+                            <img
+                              src="../../dist/images/profile/user-5.jpg"
+                              alt="user"
+                              class="rounded-circle"
+                              width="48"
+                              height="48"
+                            />
+                          </span>
+                          <div class="w-75 d-inline-block v-middle">
+                            <h6 class="mb-1 fw-semibold">
+                              John received payment
+                            </h6>
+                            <span class="d-block"
+                              >$230 deducted from account</span
+                            >
+                          </div>
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                          class="py-6 px-7 d-flex align-items-center dropdown-item"
+                        >
+                          <span class="me-3">
+                            <img
+                              src="../../dist/images/profile/user-1.jpg"
+                              alt="user"
+                              class="rounded-circle"
+                              width="48"
+                              height="48"
+                            />
+                          </span>
+                          <div class="w-75 d-inline-block v-middle">
+                            <h6 class="mb-1 fw-semibold">
+                              Roman Joined the Team!
+                            </h6>
+                            <span class="d-block">Congratulate him</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="py-6 px-7 mb-1">
+                        <button class="btn btn-outline-primary w-100">
+                          See All Notifications
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link pe-0"
+                      href="javascript:void(0)"
+                      id="drop1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <div class="d-flex align-items-center">
+                        <div class="user-profile-img">
+                          <img
+                            src="../../dist/images/profile/user-1.jpg"
+                            class="rounded-circle"
+                            width="35"
+                            height="35"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </a>
+                    <div
+                      class="dropdown-menu content-dd dropdown-menu-end dropdown-menu-animate-up"
+                      aria-labelledby="drop1"
+                    >
+                      <div
+                        class="profile-dropdown position-relative"
+                        data-simplebar
+                      >
+                        <div class="py-3 px-7 pb-0">
+                          <h5 class="mb-0 fs-5 fw-semibold">User Profile</h5>
+                        </div>
+                        <div
+                          class="d-flex align-items-center py-9 mx-7 border-bottom"
+                        >
+                          <img
+                            src="../../dist/images/profile/user-1.jpg"
+                            class="rounded-circle"
+                            width="80"
+                            height="80"
+                            alt=""
+                          />
+                          <div class="ms-3">
+                            <h5 class="mb-1 fs-3">Mathew Anderson</h5>
+                            <span class="mb-1 d-block text-dark">Designer</span>
+                            <p
+                              class="mb-0 d-flex text-dark align-items-center gap-2"
+                            >
+                              <i class="ti ti-mail fs-4"></i> info@modernize.com
+                            </p>
+                          </div>
+                        </div>
+                        <div class="message-body">
+                          <a
+                            href="#"
+                            class="py-8 px-7 mt-8 d-flex align-items-center"
+                          >
+                            <span
+                              class="d-flex align-items-center justify-content-center bg-light rounded-1 p-6"
+                            >
+                              <img
+                                src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-account.svg"
+                                alt=""
+                                width="24"
+                                height="24"
+                              />
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 bg-hover-primary fw-semibold">
+                                My Profile
+                              </h6>
+                              <span class="d-block text-dark"
+                                >Account Settings</span
+                              >
+                            </div>
+                          </a>
+                          <a
+                            href="#"
+                            class="py-8 px-7 d-flex align-items-center"
+                          >
+                            <span
+                              class="d-flex align-items-center justify-content-center bg-light rounded-1 p-6"
+                            >
+                              <img
+                                src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-inbox.svg"
+                                alt=""
+                                width="24"
+                                height="24"
+                              />
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 bg-hover-primary fw-semibold">
+                                My Inbox
+                              </h6>
+                              <span class="d-block text-dark"
+                                >Messages & Emails</span
+                              >
+                            </div>
+                          </a>
+                          <a
+                            href="#"
+                            class="py-8 px-7 d-flex align-items-center"
+                          >
+                            <span
+                              class="d-flex align-items-center justify-content-center bg-light rounded-1 p-6"
+                            >
+                              <img
+                                src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-tasks.svg"
+                                alt=""
+                                width="24"
+                                height="24"
+                              />
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 bg-hover-primary fw-semibold">
+                                My Task
+                              </h6>
+                              <span class="d-block text-dark"
+                                >To-do and Daily Tasks</span
+                              >
+                            </div>
+                          </a>
+                        </div>
+                        <div class="d-grid py-4 px-7 pt-8">
+                          <div
+                            class="upgrade-plan bg-light-primary position-relative overflow-hidden rounded-4 p-4 mb-9"
+                          >
+                            <div class="row">
+                              <div class="col-6">
+                                <h5
+                                  class="fs-4 mb-3 w-50 fw-semibold text-dark"
+                                >
+                                  Unlimited Access
+                                </h5>
+                                <button class="btn btn-primary text-white">
+                                  Upgrade
+                                </button>
+                              </div>
+                              <div class="col-6">
+                                <div class="m-n4">
+                                  <img
+                                    src="../../dist/images/backgrounds/unlimited-bg.png"
+                                    alt=""
+                                    class="w-100"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <a
+                            href="authentication-login.html"
+                            class="btn btn-outline-primary"
+                            >Log Out</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- --------------------------------------------------- -->
+        <!-- Header End -->
+        <!-- --------------------------------------------------- -->
+        <div class="container-fluid">
+          <div class="card bg-light-info shadow-none position-relative overflow-hidden">
+              <div class="card-body px-4 py-3">
+                  <div class="row align-items-center">
+                      <div class="col-9">
+                          <h4 class="fw-semibold mb-8">Inventory Tracking</h4>
+                          <nav aria-label="breadcrumb">
+                              <ol class="breadcrumb">
+                                  <li class="breadcrumb-item">
+                                      <a class="text-muted " href="index.html">Dashboard</a>
+                                  </li>
+                                  <li class="breadcrumb-item" aria-current="page">
+                                      Inventory Tracking
+                                  </li>
+                              </ol>
+                          </nav>
+                      </div>
+                      <div class="col-3">
+                          <div class="text-center mb-n5">
+                              <img src="../../dist/images/breadcrumb/ChatBc.png" alt="" class="img-fluid mb-n4" />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-12">
+                  <div class="card shadow-lg">
+                      <div class="border-bottom title-part-padding">
+                          <h4 class="card-title mb-0">Inventory Tracking For This Itam</h4>
+
+                          <p>you cannot enable/disable inventory tracking onice you've created transaction for
+                              this item</p>
+                      </div>
+                      <div class="card-body">
+                          <form>
+                              <div class="row">
+                                  <div class="col-12">
+                                      <div class="card">
+                                          <div class="border-bottom title-part-padding">
+                                              <h4 class="card-title mb-0">
+                                                  Advanced Invetory Tracking</h4>
+                                          </div>
+                                          <div class="nav nav-pills mb-3 d-block" id="pills-tab"
+                                              role="tablist d-f">
+                                              <div class="nav-item form-check" role="presentation"
+                                                  class="form-check">
+                                                  <input class="form-check-input" type="radio"
+                                                      name="flexRadioDefault" id="flexRadioDefault1"
+                                                      class="nav-link active" id="pills-home-tab"
+                                                      data-bs-toggle="pill" data-bs-target="#pills-home"
+                                                      type="button" role="tab" aria-controls="pills-home"
+                                                      aria-selected="true">
+                                                  <label class="form-check-label" for="flexRadioDefault1">
+                                                      None
+                                                  </label>
+                                              </div>
+                                              <div class="nav-item form-check " role="presentation">
+                                                  <input class="form-check-input" type="radio"
+                                                      name="flexRadioDefault" id="flexRadioDefault1"
+                                                      class="nav-link" id="pills-profile-tab"
+                                                      data-bs-toggle="pill" data-bs-target="#track-serial-number"
+                                                      type="button" role="tab" aria-controls="track-serial-number"
+                                                      aria-selected="false">
+                                                  <label class="form-check-label" for="flexRadioDefault1">
+                                                      Track Serial Number
+                                                  </label>
+                                              </div>
+                                              <div class="nav-item form-check " role="presentation">
+                                                  <input class="form-check-input" type="radio"
+                                                      name="flexRadioDefault" id="flexRadioDefault1"
+                                                      class="nav-link" id="pills-contact-tab"
+                                                      data-bs-toggle="pill" data-bs-target="#pills-contact"
+                                                      type="button" role="tab" aria-controls="pills-contact"
+                                                      aria-selected="false">
+                                                  <label class="form-check-label" for="flexRadioDefault1">
+                                                      Track Batches
+                                                  </label>
+                                              </div>
+
+                                          </div>
+                                          <div class="tab-content" id="pills-tabContent">
+                                              <div class="tab-pane fade show active" id="pills-home"
+                                                  role="tabpanel" aria-labelledby="pills-home-tab">
+                                                  <div class="col-lg-12 mb-4">
+                                                      <div class="">
+                                                          <div class=" px-4 col-lg-12">
+                                                              <div class=" row align-items-center">
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label"
+                                                                      style="color: rgb(2, 2, 2);">Inventory
+                                                                      Account *</label>
+                                                                  <div class="col-md-4">
+                                                                      <select class="form-control form-select"
+                                                                          data-placeholder="Choose a Category"
+                                                                          tabindex="1">
+                                                                          <option value="Category 1">Order 1
+                                                                          </option>
+                                                                          <option value="Category 2">Order 2
+                                                                          </option>
+                                                                          <option value="Category 3">Order 15
+                                                                          </option>
+                                                                          <option value="Category 4">Order 14
+                                                                          </option>
+                                                                      </select>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+
+                                                          <div class="card-body px-4 col-lg-12">
+                                                              <div class="mb-4 row align-items-center">
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label">Rearder
+                                                                      point</label>
+                                                                  <div class="col-md-4">
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext"
+                                                                          placeholder="John Deo">
+                                                                  </div>
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label">Prelerred
+                                                                      vender</label>
+                                                                  <div class="col-md-4">
+                                                                      <select class="form-control form-select"
+                                                                          data-placeholder="Choose a Category"
+                                                                          tabindex="1">
+                                                                          <option value="Category 1">Order 1
+                                                                          </option>
+                                                                          <option value="Category 2">Order 2
+                                                                          </option>
+                                                                          <option value="Category 3">Order 15
+                                                                          </option>
+                                                                          <option value="Category 4">Order 14
+                                                                          </option>
+                                                                      </select>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-lg-12 px-4 card-body ">
+                                                              <div class="row">
+                                                                  <div class="mb-2 col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold mb-5">WareHouse
+                                                                          NAME</label>
+                                                                      <select class="form-select"
+                                                                          aria-label="Default select example">
+                                                                          <option selected="">IndiA</option>
+                                                                          <option value="1">United Kingdom
+                                                                          </option>
+                                                                          <option value="2">Srilanka</option>
+                                                                      </select>
+                                                                      <select class="form-select mt-3"
+                                                                          aria-label="Default select example">
+                                                                          <option selected="">IndiA</option>
+                                                                          <option value="1">United Kingdom
+                                                                          </option>
+                                                                          <option value="2">Srilanka</option>
+                                                                      </select>
+                                                                  </div>
+                                                                  <div class="mb-2  col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold">OPENING
+                                                                          STOCK<br>
+                                                                          <span>PRE UNIT</span>
+                                                                          <br>
+                                                                          <a href="#" style="color:black">copy to all</a>
+                                                                      </label>
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext" placeholder="0">
+
+                                                                      <input type="text" class="form-control mt-3"
+                                                                          id="exampleInputtext" placeholder="0">
+                                                                  </div>
+                                                                  <div class="mb-2  col-md-3 ">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold">OPENING
+                                                                          STOCK<br>
+                                                                          <span>PRE UNIT</span>
+                                                                          <br>
+                                                                          <a href="#" style="color:black">copy to all</a>
+                                                                      </label>
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext" placeholder="0">
+                                                                      <input type="text" class="form-control mt-3"
+                                                                          id="exampleInputtext" placeholder="0">
+                                                                  </div>
+                                                                  <div
+                                                                      class="col-md-2 mt-7 justify-content-center align-items-center text-center">
+                                                                      <ul>
+                                                                          <li>
+                                                                              <button data-repeater-delete=""
+                                                                                  class="btn btn-danger waves-effect waves-light mt-7 "
+                                                                                  type="button">
+                                                                                  <i
+                                                                                      class="ti ti-circle-x fs-5"></i>
+
+                                                                              </button>
+
+                                                                          </li>
+                                                                          <li>
+                                                                              <button data-repeater-delete=""
+                                                                                  class="btn btn-danger waves-effect waves-light mt-4"
+                                                                                  type="button">
+                                                                                  <i
+                                                                                      class="ti ti-circle-x fs-5"></i>
+
+                                                                              </button>
+                                                                          </li>
+                                                                      </ul>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="tab-pane fade" id="track-serial-number" role="tabpanel"
+                                                  aria-labelledby="track-serial-number">
+                                                  <div class="col-lg-12 mb-4">
+                                                      <div class="">
+                                                          <div class=" px-4 col-lg-12">
+                                                              <div class=" row align-items-center">
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label">Inventory
+                                                                      Account</label>
+                                                                  <div class="col-md-4">
+                                                                      <select class="form-control form-select"
+                                                                          data-placeholder="Choose a Category"
+                                                                          tabindex="1">
+                                                                          <option value="Category 1">Order 1
+                                                                          </option>
+                                                                          <option value="Category 2">Order 2
+                                                                          </option>
+                                                                          <option value="Category 3">Order 15
+                                                                          </option>
+                                                                          <option value="Category 4">Order 14
+                                                                          </option>
+                                                                      </select>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+
+                                                          <div class="card-body px-4 col-lg-12">
+                                                              <div class="mb-4 row align-items-center">
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label">Rearder
+                                                                      pount</label>
+                                                                  <div class="col-md-4">
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext"
+                                                                          placeholder="John Deo">
+                                                                  </div>
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label">Prelerred
+                                                                      vender</label>
+                                                                  <div class="col-md-4">
+                                                                      <select class="form-control form-select"
+                                                                          data-placeholder="Choose a Category"
+                                                                          tabindex="1">
+                                                                          <option value="Category 1">Order 1
+                                                                          </option>
+                                                                          <option value="Category 2">Order 2
+                                                                          </option>
+                                                                          <option value="Category 3">Order 15
+                                                                          </option>
+                                                                          <option value="Category 4">Order 14
+                                                                          </option>
+                                                                      </select>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-lg-12 px-4 card-body ">
+                                                              <div class="row">
+                                                                  <div class="mb-2 col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold mb-5">WareHouse
+                                                                          NAME</label>
+                                                                      <select class="form-select"
+                                                                          aria-label="Default select example">
+                                                                          <option selected="">IndiA</option>
+                                                                          <option value="1">United Kingdom
+                                                                          </option>
+                                                                          <option value="2">Srilanka</option>
+                                                                      </select>
+                                                                  </div>
+                                                                  <div class="mb-2  col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold">OPENING
+                                                                          STOCK<br>
+                                                                          <span>PRE UNIT</span>
+                                                                          <br>
+                                                                          <a href="">copy to all</a>
+                                                                      </label>
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext" placeholder="0">
+                                                                  </div>
+                                                                  <div class="mb-2  col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold">OPENING
+                                                                          STOCK<br>
+                                                                          <span>PRE UNIT</span>
+                                                                          <br>
+                                                                          <a href="">copy to all</a>
+                                                                      </label>
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext" placeholder="0">
+                                                                  </div>
+
+                                                              </div>
+
+
+                                                          </div>
+                                                          <div class="col-12 px-4">
+                                                              <div class="d-md-flex align-items-center">
+
+
+                                                                  <button type="submit"
+                                                                      class="btn btn-info font-medium rounded-pill px-4"
+                                                                      data-bs-toggle="modal"
+                                                                      data-bs-target="#staticBackdrop">
+                                                                      + Add WareHouse
+                                                                  </button>
+
+
+
+                                                                  <!-- Button trigger modal -->
+                                                                  <div class="ms-auto mt-md-0">
+                                                                      <button type="button"
+                                                                          class="btn btn-info font-medium rounded-pill px-4"
+                                                                          data-bs-toggle="modal"
+                                                                          data-bs-target="#staticBackdrop">
+                                                                          <div class="d-flex align-items-center">
+
+                                                                              Add Serial Number
+                                                                          </div>
+                                                                      </button>
+                                                                      <!-- Modal -->
+                                                                      <div class="modal fade" id="staticBackdrop"
+                                                                          data-bs-backdrop="static"
+                                                                          data-bs-keyboard="false" tabindex="-1"
+                                                                          aria-labelledby="staticBackdropLabel"
+                                                                          aria-hidden="true">
+                                                                          <div class="modal-dialog">
+                                                                              <div class="modal-content">
+                                                                                  <div class="modal-header">
+                                                                                      <h5 class="modal-title"
+                                                                                          id="staticBackdropLabel">
+                                                                                          Add Serial Number(s)
+                                                                                      </h5>
+                                                                                      <button type="button"
+                                                                                          class="btn-close"
+                                                                                          data-bs-dismiss="modal"
+                                                                                          aria-label="Close"></button>
+                                                                                  </div>
+                                                                                  <div
+                                                                                      class="modal-body bg-light">
+                                                                                      <div class="mb-3 ">
+                                                                                          <h5 class=" "style="float: left;
+                                                                                  ">zylker</h5>
+                                                                                          <span
+                                                                                              class="justify-content-end d-flex align-items-center ">3<br>Quantity</span>
+                                                                                      </div>
+                                                                                  </div>
+                                                                                  <div class="modal-body">
+                                                                                      <div class="mb-3">
+                                                                                          <label
+                                                                                              for="message-text"
+                                                                                              class="col-form-label">Message:</label>
+                                                                                          <textarea
+                                                                                              class="form-control"
+                                                                                              id="message-text"></textarea>
+                                                                                      </div>
+                                                                                  </div>
+                                                                                  <div class="modal-footer">
+
+                                                                                      <button type="button"
+                                                                                          class="btn btn-primary">Save</button>
+                                                                                      <button type="button"
+                                                                                          class="btn btn-secondary"
+                                                                                          data-bs-dismiss="modal">Close</button>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+
+                                                          </div>
+
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                                  aria-labelledby="pills-contact-tab">
+                                                  <div class="col-lg-12 mb-4">
+                                                      <div class="">
+                                                          <div class=" px-4 col-lg-12">
+                                                              <div class=" row align-items-center">
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label"
+                                                                      style="color: red;">Inventory
+                                                                      Account*</label>
+                                                                  <div class="col-md-4">
+                                                                      <select class="form-control form-select"
+                                                                          data-placeholder="Choose a Category"
+                                                                          tabindex="1">
+                                                                          <option value="Category 1">Order 1
+                                                                          </option>
+                                                                          <option value="Category 2">Order 2
+                                                                          </option>
+                                                                          <option value="Category 3">Order 15
+                                                                          </option>
+                                                                          <option value="Category 4">Order 14
+                                                                          </option>
+                                                                      </select>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+
+                                                          <div class="card-body px-4 col-lg-12">
+                                                              <div class="mb-4 row align-items-center">
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label">Rearder
+                                                                      pount</label>
+                                                                  <div class="col-md-4">
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext"
+                                                                          placeholder="John Deo">
+                                                                  </div>
+                                                                  <label for="exampleInputPassword1"
+                                                                      class="form-label fw-semibold col-md-2 col-form-label">Prelerred
+                                                                      vender</label>
+                                                                  <div class="col-md-4">
+                                                                      <select class="form-control form-select"
+                                                                          data-placeholder="Choose a Category"
+                                                                          tabindex="1">
+                                                                          <option value="Category 1">Order 1
+                                                                          </option>
+                                                                          <option value="Category 2">Order 2
+                                                                          </option>
+                                                                          <option value="Category 3">Order 15
+                                                                          </option>
+                                                                          <option value="Category 4">Order 14
+                                                                          </option>
+                                                                      </select>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-lg-12 px-4 card-body ">
+                                                              <div class="row">
+                                                                  <div class="mb-2 col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold mb-5">WareHouse
+                                                                          NAME</label>
+                                                                      <select class="form-select"
+                                                                          aria-label="Default select example">
+                                                                          <option selected="">IndiA</option>
+                                                                          <option value="1">United Kingdom
+                                                                          </option>
+                                                                          <option value="2">Srilanka</option>
+                                                                      </select>
+                                                                  </div>
+                                                                  <div class="mb-2  col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold">OPENING
+                                                                          STOCK<br>
+                                                                          <span>PRE UNIT</span>
+                                                                          <br>
+                                                                          <a href="">copy to all</a>
+                                                                      </label>
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext" placeholder="0">
+                                                                  </div>
+                                                                  <div class="mb-2  col-md-3">
+                                                                      <label for="exampleInputPassword1"
+                                                                          class="form-label fw-semibold">OPENING
+                                                                          STOCK<br>
+                                                                          <span>PRE UNIT</span>
+                                                                          <br>
+                                                                          <a href="">copy to all</a>
+                                                                      </label>
+                                                                      <input type="text" class="form-control"
+                                                                          id="exampleInputtext" placeholder="0">
+                                                                  </div>
+
+                                                              </div>
+
+
+                                                          </div>
+                                                          <div class="col-12 px-4">
+                                                              <div class="d-md-flex align-items-center">
+
+                                                                  <button type="submit"
+                                                                      class="btn btn-info font-medium rounded-pill px-4">
+                                                                      + Add WareHouse
+                                                                  </button>
+<!-- Button trigger modal -->
+                                                                  <div class="ms-auto mt-md-0">
+                                                                      <button type="button"
+                                                                          class="btn btn-info font-medium rounded-pill px-4"
+                                                                          data-bs-toggle="modal"
+                                                                          data-bs-target="#exampleModal">
+                                                                          <div class="d-flex align-items-center">
+
+                                                                              Add Batches
+                                                                          </div>
+                                                                      </button>
+                                                                    
+                                                                  
+                                                                      <!-- Modal -->
+                                                                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                          <div class="modal-dialog modal-xl">
+                                                                            <div class="modal-content">
+                                                                              <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel">  Add batch number for the selected item</h5>
+                                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                              </div>
+                                                                              <div class="modal-body">
+                                                                               
+                                                                                  <div class="card-body p-4">
+                                                                                      <div class=" text-end align-items-end">
+                                                                                          <h6>Total:03</h6><vr>
+                                                                                          <h6>Quantity to be add:0</h6>
+                                                                                        </div>
+                                                                                      <div class="table-responsive rounded-2 mb-4">
+                                                                                        <table class="table border text-nowrap customize-table mb-0 align-middle">
+                                                                                          <thead class="text-dark fs-4">
+                                                                                            <tr>
+                                                                                              <th>
+                                                                                                <h6 class="fs-4 fw-semibold mb-0">Batch Reference</h6>
+                                                                                              </th>
+                                                                                              <th>
+                                                                                                <h6 class="fs-4 fw-semibold mb-0">Manufacturer batch</h6>
+                                                                                              </th>
+                                                                                              <th>
+                                                                                                <h6 class="fs-4 fw-semibold mb-0">Manufactured Date</h6>
+                                                                                              </th>
+                                                                                              <th>
+                                                                                                <h6 class="fs-4 fw-semibold mb-0">Expiry Date</h6>
+                                                                                              </th>
+                                                                                              <th>
+                                                                                                <h6 class="fs-4 fw-semibold mb-0">Quantity IN</h6>
+                                                                                              </th>
+                                                                                            </tr>
+                                                                                          </thead>
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td>
+                                                                                                <div class="d-flex align-items-center">
+                                                                                                  <input type="text" id="firstName" class="form-control" placeholder="BR213343">
+                                                                                                </div>
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="text" id="firstName" class="form-control" placeholder="">
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="date" class="form-control">
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="date" class="form-control">
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="text" id="example-input-normal" name="example-input-normal" class="form-control" placeholder="number">
+                                                                                              </td>
+                                                                                              <td><button data-repeater-delete="" class="btn btn-danger waves-effect waves-light" type="button">
+                                                                                                <i class="ti ti-circle-x fs-5"></i>
+        
+                                                                                            </button>
+                                                                                        </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td>
+                                                                                                <div class="d-flex align-items-center">
+                                                                                                  <input type="text" id="firstName" class="form-control" placeholder="BR213343">
+                                                                                                </div>
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="text" id="firstName" class="form-control" placeholder="">
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="date" class="form-control">
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="date" class="form-control">
+                                                                                              </td>
+                                                                                              <td>
+                                                                                                  <input type="text" id="example-input-normal" name="example-input-normal" class="form-control" placeholder="number">
+                                                                                              </td>
+                                                                                              <td><button data-repeater-delete="" class="btn btn-danger waves-effect waves-light" type="button">
+                                                                                                <i class="ti ti-circle-x fs-5"></i>
+        
+                                                                                            </button>
+                                                                                        </td>
+
+                                                                                            </tr>
+                                                                                           
+                                                                                          </tbody>
+                                                                                        </table>
+                                                                                        <button type="button"
+                                                                                                    class="btn btn-primary mt-4">+Add Batch</button>
+
+                                                                                      </div>
+                                                                                   
+                                                                                    </div>
+                                                                              </div>
+                                                                              <div class="modal-footer">
+                                  
+                                                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                                <button type="button" class="btn btn-primary">Save</button>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                  </div>
+
+                                  <!-- Column -->
+                              </div>
+                      </div>
+                      </form>
+                  </div>
+              </div>
+
+              <!-- Column -->
+          </div>
+      </div>
+
+      <div class="dark-transparent sidebartoggler"></div>
+      <div class="dark-transparent sidebartoggler"></div>
+    </div>
+
+    <!--  Shopping Cart -->
+    <div
+      class="offcanvas offcanvas-end shopping-cart"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header py-4">
+        <h5 class="offcanvas-title fs-5 fw-semibold" id="offcanvasRightLabel">
+          Shopping Cart
+        </h5>
+        <span class="badge bg-primary rounded-4 px-3 py-1 lh-sm">5 new</span>
+      </div>
+      <div class="offcanvas-body h-100 px-4 pt-0" data-simplebar>
+        <ul class="mb-0">
+          <li class="pb-7">
+            <div class="d-flex align-items-center">
+              <img
+                src="../../dist/images/products/product-1.jpg"
+                width="95"
+                height="75"
+                class="rounded-1 me-9 flex-shrink-0"
+                alt=""
+              />
+              <div>
+                <h6 class="mb-1">Supreme toys cooker</h6>
+                <p class="mb-0 text-muted fs-2">Kitchenware Item</p>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-2"
+                >
+                  <h6 class="fs-2 fw-semibold mb-0 text-muted">$250</h6>
+                  <div class="input-group input-group-sm w-50">
+                    <button
+                      class="btn border-0 round-20 minus p-0 bg-light-success text-success"
+                      type="button"
+                      id="add1"
+                    >
+                      -
+                    </button>
+                    <input
+                      type="text"
+                      class="form-control round-20 bg-transparent text-muted fs-2 border-0 text-center qty"
+                      placeholder=""
+                      aria-label="Example text with button addon"
+                      aria-describedby="add1"
+                      value="1"
+                    />
+                    <button
+                      class="btn text-success bg-light-success p-0 round-20 border-0 add"
+                      type="button"
+                      id="addo2"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="pb-7">
+            <div class="d-flex align-items-center">
+              <img
+                src="../../dist/images/products/product-2.jpg"
+                width="95"
+                height="75"
+                class="rounded-1 me-9 flex-shrink-0"
+                alt=""
+              />
+              <div>
+                <h6 class="mb-1">Supreme toys cooker</h6>
+                <p class="mb-0 text-muted fs-2">Kitchenware Item</p>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-2"
+                >
+                  <h6 class="fs-2 fw-semibold mb-0 text-muted">$250</h6>
+                  <div class="input-group input-group-sm w-50">
+                    <button
+                      class="btn border-0 round-20 minus p-0 bg-light-success text-success"
+                      type="button"
+                      id="add2"
+                    >
+                      -
+                    </button>
+                    <input
+                      type="text"
+                      class="form-control round-20 bg-transparent text-muted fs-2 border-0 text-center qty"
+                      placeholder=""
+                      aria-label="Example text with button addon"
+                      aria-describedby="add2"
+                      value="1"
+                    />
+                    <button
+                      class="btn text-success bg-light-success p-0 round-20 border-0 add"
+                      type="button"
+                      id="addon34"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="pb-7">
+            <div class="d-flex align-items-center">
+              <img
+                src="../../dist/images/products/product-3.jpg"
+                width="95"
+                height="75"
+                class="rounded-1 me-9 flex-shrink-0"
+                alt=""
+              />
+              <div>
+                <h6 class="mb-1">Supreme toys cooker</h6>
+                <p class="mb-0 text-muted fs-2">Kitchenware Item</p>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-2"
+                >
+                  <h6 class="fs-2 fw-semibold mb-0 text-muted">$250</h6>
+                  <div class="input-group input-group-sm w-50">
+                    <button
+                      class="btn border-0 round-20 minus p-0 bg-light-success text-success"
+                      type="button"
+                      id="add3"
+                    >
+                      -
+                    </button>
+                    <input
+                      type="text"
+                      class="form-control round-20 bg-transparent text-muted fs-2 border-0 text-center qty"
+                      placeholder=""
+                      aria-label="Example text with button addon"
+                      aria-describedby="add3"
+                      value="1"
+                    />
+                    <button
+                      class="btn text-success bg-light-success p-0 round-20 border-0 add"
+                      type="button"
+                      id="addon3"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="align-bottom">
+          <div class="d-flex align-items-center pb-7">
+            <span class="text-dark fs-3">Sub Total</span>
+            <div class="ms-auto">
+              <span class="text-dark fw-semibold fs-3">$2530</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center pb-7">
+            <span class="text-dark fs-3">Total</span>
+            <div class="ms-auto">
+              <span class="text-dark fw-semibold fs-3">$6830</span>
+            </div>
+          </div>
+          <a href="eco-checkout.html" class="btn btn-outline-primary w-100"
+            >Go to shopping cart</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--  Mobilenavbar -->
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="mobilenavbar"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <nav class="sidebar-nav scroll-sidebar">
+        <div class="offcanvas-header justify-content-between">
+          <img
+            src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/logos/favicon.ico"
+            alt=""
+            class="img-fluid"
+          />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div
+          class="offcanvas-body profile-dropdown mobile-navbar"
+          data-simplebar=""
+          data-simplebar
+        >
+          <ul id="sidebarnav">
+            <li class="sidebar-item">
+              <a
+                class="sidebar-link has-arrow"
+                href="javascript:void(0)"
+                aria-expanded="false"
+              >
+                <span>
+                  <i class="ti ti-apps"></i>
+                </span>
+                <span class="hide-menu">Apps</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level my-3">
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-chat.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">Chat Application</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >New messages arrived</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-invoice.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">Invoice App</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >Get latest invoice</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-mobile.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">Contact Application</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >2 Unsaved Contacts</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-message-box.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">Email App</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >Get new emails</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-cart.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">User Profile</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >learn more information</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-date.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">Calendar App</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >Get dates</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-lifebuoy.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">Contact List Table</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >Add new contact</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li class="sidebar-item py-2">
+                  <a href="#" class="d-flex align-items-center">
+                    <div
+                      class="bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center"
+                    >
+                      <img
+                        src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/svgs/icon-dd-application.svg"
+                        alt=""
+                        class="img-fluid"
+                        width="24"
+                        height="24"
+                      />
+                    </div>
+                    <div class="d-inline-block">
+                      <h6 class="mb-1 bg-hover-primary">Notes Application</h6>
+                      <span class="fs-2 d-block fw-normal text-muted"
+                        >To-do and Daily tasks</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <ul class="px-8 mt-7 mb-4">
+                  <li class="sidebar-item mb-3">
+                    <h5 class="fs-5 fw-semibold">Quick Links</h5>
+                  </li>
+                  <li class="sidebar-item py-2">
+                    <a class="fw-semibold text-dark" href="#">Pricing Page</a>
+                  </li>
+                  <li class="sidebar-item py-2">
+                    <a class="fw-semibold text-dark" href="#"
+                      >Authentication Design</a
+                    >
+                  </li>
+                  <li class="sidebar-item py-2">
+                    <a class="fw-semibold text-dark" href="#">Register Now</a>
+                  </li>
+                  <li class="sidebar-item py-2">
+                    <a class="fw-semibold text-dark" href="#">404 Error Page</a>
+                  </li>
+                  <li class="sidebar-item py-2">
+                    <a class="fw-semibold text-dark" href="#">Notes App</a>
+                  </li>
+                  <li class="sidebar-item py-2">
+                    <a class="fw-semibold text-dark" href="#"
+                      >User Application</a
+                    >
+                  </li>
+                  <li class="sidebar-item py-2">
+                    <a class="fw-semibold text-dark" href="#"
+                      >Account Settings</a
+                    >
+                  </li>
+                </ul>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="sidebar-link"
+                href="app-chat.html"
+                aria-expanded="false"
+              >
+                <span>
+                  <i class="ti ti-message-dots"></i>
+                </span>
+                <span class="hide-menu">Chat</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="sidebar-link"
+                href="app-calendar.html"
+                aria-expanded="false"
+              >
+                <span>
+                  <i class="ti ti-calendar"></i>
+                </span>
+                <span class="hide-menu">Calendar</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="sidebar-link"
+                href="app-email.html"
+                aria-expanded="false"
+              >
+                <span>
+                  <i class="ti ti-mail"></i>
+                </span>
+                <span class="hide-menu">Email</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--  Search Bar -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content rounded-1">
+          <div class="modal-header border-bottom">
+            <input
+              type="search"
+              class="form-control fs-3"
+              placeholder="Search here"
+              id="search"
+            />
+            <span data-bs-dismiss="modal" class="lh-1 cursor-pointer">
+              <i class="ti ti-x fs-5 ms-3"></i>
+            </span>
+          </div>
+          <div class="modal-body message-body" data-simplebar="">
+            <h5 class="mb-0 fs-5 p-1">Quick Page Links</h5>
+            <ul class="list mb-0 py-2">
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Modern</span>
+                  <span class="fs-3 text-muted d-block"
+                    >/dashboards/dashboard1</span
+                  >
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block"
+                    >Dashboard</span
+                  >
+                  <span class="fs-3 text-muted d-block"
+                    >/dashboards/dashboard2</span
+                  >
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block"
+                    >Contacts</span
+                  >
+                  <span class="fs-3 text-muted d-block">/apps/contacts</span>
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Posts</span>
+                  <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Detail</span>
+                  <span class="fs-3 text-muted d-block"
+                    >/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span
+                  >
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Shop</span>
+                  <span class="fs-3 text-muted d-block"
+                    >/apps/ecommerce/shop</span
+                  >
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Modern</span>
+                  <span class="fs-3 text-muted d-block"
+                    >/dashboards/dashboard1</span
+                  >
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block"
+                    >Dashboard</span
+                  >
+                  <span class="fs-3 text-muted d-block"
+                    >/dashboards/dashboard2</span
+                  >
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block"
+                    >Contacts</span
+                  >
+                  <span class="fs-3 text-muted d-block">/apps/contacts</span>
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Posts</span>
+                  <span class="fs-3 text-muted d-block">/apps/blog/posts</span>
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Detail</span>
+                  <span class="fs-3 text-muted d-block"
+                    >/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span
+                  >
+                </a>
+              </li>
+              <li class="p-1 mb-1 bg-hover-light-black">
+                <a href="#">
+                  <span class="fs-3 text-black fw-normal d-block">Shop</span>
+                  <span class="fs-3 text-muted d-block"
+                    >/apps/ecommerce/shop</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------- -->
+    <!-- Import Js Files -->
+    <!-- ---------------------------------------------- -->
+    <script src="../../dist/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../dist/libs/simplebar/dist/simplebar.min.js"></script>
+    <script src="../../dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ---------------------------------------------- -->
+    <!-- core files -->
+    <!-- ---------------------------------------------- -->
+    <script src="../../dist/js/app.min.js"></script>
+    <script src="../../dist/js/app.init.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <script src="../../dist/js/sidebarmenu.js"></script>
+
+    <script src="../../dist/js/custom.js"></script>
+    <script src="../../dist/libs/prismjs/prism.js"></script>
+
+    <!-- ---------------------------------------------- -->
+    <!-- current page js files -->
+    <!-- ---------------------------------------------- -->
+    <script src="../../dist/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../../dist/js/datatable/datatable-basic.init.js"></script>
+  </body>
+</html>
